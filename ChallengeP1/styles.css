@@ -1,0 +1,230 @@
+/* Style Guide CSS - index.html */
+ * { /* border: 1px solid yellow; */ text-decoration: none;}
+
+/* ----- HTML Section ----- */
+
+html { font-family: "Open Sans", Arial, serif, "Times New Roman"; }
+
+
+/* ----- BODY Section ----- */
+
+body { background-color: hsl(0, 0%, 86%);
+       margin-top: 0px; margin-right: 1px;
+       margin-bottom: 20px; margin-left: 1px; }
+
+/* ----- HEADER Section ----- */
+
+header { background-color: #232244; color: lightgrey;
+         width: 100%; padding: 0px 0px;
+         margin-top: 0px; margin-bottom: 5px; }
+
+header .title { text-transform: uppercase; text-align: center;
+                font-size: 45px; font-weight: 800;
+                word-spacing: 10px; letter-spacing: 5px;
+                margin-top: 0px; margin-right: 0px;
+                margin-bottom: 5px; margin-left: 0px; }
+       
+/* ----- HEADER NAVIGATION Section ----- */
+
+.navUL { margin-bottom: 5px; padding: 5px 10px;
+         text-align: center; }
+
+.navLI { width: 200px; text-align: center;
+         display: inline-block; font-weight: 900;
+         margin: auto 10px; }
+
+.navLI a { padding: 0px; font-size: 25px;
+          color: lightgrey; letter-spacing: 2px; }
+.navLI a:hover { text-decoration: underline; }
+
+/* ----- MAIN Section ----- */
+
+#section1, #section2, #section3 { margin: 10px; background-color: hsl(0, 0%, 86%) }
+
+main { margin-top: 0px; margin-bottom: 10px;
+       padding-bottom: 10px; background-color: hsl(0, 0%, 86%);
+       width: 100%; border-bottom: 1px solid black; }
+         
+h2 { font-size: 35px; text-transform: uppercase;
+     letter-spacing: 2px; font-weight: 800;
+     background-color: skyblue; border-radius: 10px; }
+ 
+.Fabout { margin-top: 0px; margin-bottom: 0px; line-height: 1px; }
+
+h3 { font-size: 27px; font-weight: 800; }
+
+p { font-size: 20px; font-weight: 500; }
+
+.Fpara1 { margin-top: 5px; margin-left: 5px;
+          margin-bottom: 5px; width: 100%;
+          font-size: 18px; font-weight: 800;
+          padding-top: 0px;}
+          
+.Fpara1 a { color: yellow; }
+.Fpara1 a:hover { text-decoration: underline; }
+
+.underline { text-decoration: underline; font-weight: 800; }
+
+/* ----- Section 1 - COLORS ----- */
+
+.multicolors { border-radius: 10px; display: block;
+               text-align: center; word-spacing: 50px; }
+
+.Tom { background-color: hsl(9, 100%, 64%); color: black;
+       border: 2px solid black; margin: 5px;
+       width: 300px; padding:5px;
+       text-align: left; height: 150px;
+       border-radius: 25px; display: inline-block;
+       word-spacing: normal; }
+       
+.Tom p { visibility: hidden; font-weight: 800; }
+
+.Tom:hover p { animation-name: TcolorChange; animation-duration: 2s;
+               visibility: visible; }
+               
+@keyframes TcolorChange { from{color: tomato;}
+                         to{color: black;}
+                        }
+   
+.Oran { background-color: hsl(39, 100%, 50%); color: black;
+        border: 2px solid black; margin: 5px;
+        width: 300px; padding: 5px;
+        text-align: left; word-spacing: normal;
+        height: 150px; border-radius: 25px;
+        display: inline-block; }
+        
+.Oran p { visibility: hidden; font-weight: 800; }
+
+.Oran:hover p { animation-name: OcolorChange; animation-duration: 2s;
+                visibility: visible; }
+@keyframes OcolorChange { from{color: orange;}
+                         to{color: black;}
+                        }
+        
+.DBlue { background-color: hsl(210, 100%, 56%); color: black;
+        border: 2px solid black; margin: 5px; 
+        width: 300px; padding: 5px;
+        text-align: left; word-spacing: normal;
+        height: 150px; border-radius: 25px;
+        display: inline-block; }
+
+.DBlue p { visibility: hidden; font-weight: 800; }
+
+.DBlue:hover p { animation-name: DBcolorChange; animation-duration: 2s;
+                 visibility: visible; }
+@keyframes DBcolorChange { from{color: dodgerblue;}
+                           to{color: black;}
+                          }
+
+.SGreen { background-color: hsl(147, 50%, 47%); color: black;
+        border: 2px solid black; margin: 5px;
+        width: 300px; padding: 5px;
+        text-align: left; word-spacing: normal;
+        height: 150px; border-radius: 25px;
+        display: inline-block; }
+        
+.SGreen p { visibility: hidden; font-weight: 800; }
+
+.SGreen:hover p { animation-name: SGcolorChange; animation-duration: 2s;
+                  visibility: visible;
+                 }           
+@keyframes SGcolorChange { from{color: mediumseagreen;}
+                           to{color: black;}
+                          }
+                          
+ /* ----- Section 2 - FONTS ----- */
+
+#section2 div { margin-bottom: 30px; border-radius: 10px;
+                background-color: 	hsl(13, 80%, 77%) }
+                
+#section2 p { font-size: 25px; }
+
+#section2 .sect2note { font-size: 20px; font-weight: 500; }
+
+#section2 nav ul { background-color: skyblue; border-radius: 10px; }
+
+#section2 nav .fontUL { padding-left: 0px; text-align: left; }
+
+.fontLI { display: inline-block; margin: 1px 1px;
+          font-weight: 800; }
+.fontLI a:hover { text-decoration: underline; } 
+          
+#fonts { font-size: 35px; text-transform: uppercase;
+         font-weight: 800; letter-spacing: 2px;
+         margin-right: 100px; }
+
+#sub1, #sub2, #sub3, #sub4, #sub5 { margin-right: 20px; font-size: 20px; }
+
+.opensans { font-family: font-family: 'Open Sans', 'sans-serif'; }
+.roboto { font-family: 'Roboto', sans-serif; }
+.ubuntu { font-family: 'Ubuntu', sans-serif; }
+.ptSans { font-family: 'PT Sans', sans-serif; }
+.lobster { font-family: 'Lobster Two', cursive; }
+.designer { font-size: 20px; font-weight: 400;
+            text-align: right; }
+
+/* ----- Section 3 - TEXT STYLES ----- */
+
+.r1th1 { grid-area: style; }
+.r1th2 { grid-area: weight; }
+.r1th3 { grid-area: size; }
+.r1th4 { grid-area: fam; }
+.r2td1 { grid-area: style1; }
+.r2td2 { grid-area: weight1; }
+.r2td3 { grid-area: size1; }
+.r2td4 { grid-area: fam1; }
+.r3td1 { grid-area: style2;}
+.r3td2 { grid-area: weight2; }
+.r3td3 { grid-area: size2; }
+.r3td4 { grid-area: fam1; }
+.r4td1 { grid-area: style3;}
+.r4td2 { grid-area: weight3; }
+.r4td3 { grid-area: size3; }
+.r4td4 { grid-area: fam1; }
+.r5td1 { grid-area: style4;}
+.r5td2 { grid-area: weight4; }
+.r5td3 { grid-area: size4; }
+.r5td4 { grid-area: fam1; }
+
+.grid-box { display: grid;
+           
+            grid-template-areas:
+              'style weight size fam'
+              'style1 weight1 size1 fam1'
+              'style2 weight2 size2 fam1'
+              'style3 weight3 size3 fam1'
+              'style4 weight4 size4 fam1' ;
+            grid-gap: 5px; background-color: hsl(9, 100%, 64%);
+            padding: 5px; border-radius: 10px; }
+
+.grid-box > div { background-color: hsla(0, 0%, 100%, 0.7);
+                  text-align: center; padding: 5px; 0;
+                  font-size: 20px;  border-radius: 10px; }
+
+#heading1 { font-size: 20px; font-weight: 800; }
+
+.grid-box > div + .heading { font-size: 20px; font-weight: 800;}
+
+#section3 { padding-bottom: 20px; margin-bottom: 70px; */ }
+
+/* ----- FOOTER Section ----- */
+
+ 
+#Fsection { background-color: #232244; color: lightgrey;
+            width: 100%; margin-top: 0px;
+            padding: 0px; position: fixed;
+            bottom: 0; left: 0px;
+            right: 0px;
+           }
+            
+#Fsection ul { padding-left: 5px; /*height: 2px;    */ }           
+#Fsection li { text-align: justify; display: inline-block;
+               letter-spacing: 2px; }
+
+#Fsection .Fabout { font-size: 30px; font-weight: 800;
+                    margin-right: 1400px; }
+
+#Fsection li a { font-size: 1.3em; letter-spacing: 1px;
+                 font-weight: 800; color: yellow; }
+                 
+#Fsection li a:hover { text-decoration: underline; }
