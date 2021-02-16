@@ -1,3 +1,3 @@
 Challenge Projects:
-- ChallengeP1
-- ChallengeP2-Responsive Club Website
+- ChallengeP1-Responsive Club Website - STYLE DESIGN GUIDE
+- ChallengeP2-Responsive Club Website - BOOK CLUB
